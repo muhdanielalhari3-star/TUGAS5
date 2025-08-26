@@ -1,9 +1,9 @@
 <?php
+// luas_persegi.php
+function luasPersegi($sisi) {
+    return $sisi * $sisi;
+}
 
-//menghitung volume tabung
-
-$jari = 10;
-$tinggi = 20;
-$volume = 3.14 * ($jari**2) * $tinggi;
-
-echo $volume;
+$sisi = 6;
+echo "Luas Persegi dengan sisi $sisi = " . luasPersegi($sisi);
+?>
